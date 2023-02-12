@@ -1,0 +1,24 @@
+﻿教程：语音实战发包机安装cc脚本教程
+
+H4网络安全技术交流：146360585
+
+发包机使用Ubuntu 18×64系统
+ssh连接发包机，复制以下指令粘贴
+完事之后sftp连接发包机，上传cc脚本
+
+ 
+node
+
+云溪qq156740798 出发包机 cc机器 cc穿盾脚本 不懂请联系
+
+
+
+wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz
+tar xf  node-v10.16.0-linux-x64.tar.xz
+cd node-v10.16.0-linux-x64/
+ln -s ~/node-v10.16.0-linux-x64/bin/node /usr/bin/node
+ln -s ~/node-v10.16.0-linux-x64/bin/npm /usr/bin/npm
+ln -s ~/node-v10.16.0-linux-x64/bin/npm /usr/bin/npx
+node -v
+cd
+sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates;curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -;sudo apt -y install nodejs;sudo apt -y install gcc g++ make;sudo apt -y install htop vnstat;sudo apt -y install screen;sudo apt -y install unrar;npm i events; npm i request; npm i os; npm i fs; npm i cluster; npm i cloudscraper; npm i url; npm i path; npm i net; npm i chalk; npm i colors;

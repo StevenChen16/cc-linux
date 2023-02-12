@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cloudscraper": "^4.5.0",
+    "keccak": "^2.0.0",
+    "request": "^2.88.0",
+    "sjcl": "^1.0.8",
+    "zombie": "^6.1.4"
+  }
+}

